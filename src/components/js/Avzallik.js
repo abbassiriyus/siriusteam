@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 import '../../App.css'
-import { MdOutlineScore } from 'react-icons/md'
+import { MdOutlineScore, MdWeb } from 'react-icons/md'
 import { FaBookReader } from 'react-icons/fa'
 import { GrMoney } from 'react-icons/gr'
-import { GiFamilyHouse } from 'react-icons/gi'
+import { GiFamilyHouse, GiReceiveMoney, GiTeamIdea } from 'react-icons/gi'
 export default class Avzallik extends Component {
     render() {
         return (<div>
@@ -24,7 +24,7 @@ export default class Avzallik extends Component {
   </li>
   <li>
     <a >
-    <GrMoney className="icons"/>
+    <GiReceiveMoney className="icons"/>
       <span>Qulay narx</span>
     </a>
   </li>
@@ -32,6 +32,18 @@ export default class Avzallik extends Component {
     <a href="#">
     <GiFamilyHouse className="icons"/>
       <span>Qulay joyda</span>
+    </a>
+  </li>
+  <li>
+    <a href="#">
+    <MdWeb className="icons"/>
+      <span>Real loyiha</span>
+    </a>
+  </li>
+  <li>
+    <a href="#">
+    <GiTeamIdea className="icons"/>
+      <span>Mustahkam tizim</span>
     </a>
   </li>
 </ul>            </div></div>
