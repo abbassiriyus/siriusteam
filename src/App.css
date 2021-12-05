@@ -1,38 +1,155 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.strong {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin:0;
+  padding:0;
+  background:#ccc;
+  font-family: 'Roboto Condensed', sans-serif;
+ width: 100%;
+ height: 300px;
+ position: relative;
 }
 
-.App-link {
-  color: #61dafb;
+.strong ul {
+  position:absolute;
+  left: 20%;
+  top: 100px;
+  display:flex;
+  margin:0;
+  padding:0;
+}
+.strong .title{
+  margin: auto;
+  text-align: center;
+  font-size: 30px;
+  position: absolute;
+  top: 10px;
+  left: 10%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+
+.strong  ul li {
+  list-style:none;
+  margin:0 5px;
+}
+
+.strong ul li a .icons {
+  font-size: 40px;
+  color: #262626;
+  line-height:80px;
+  transition: .5s;
+  padding-right: 14px;
+}
+
+.strong ul li a span {
+  padding:0;
+  margin:0;
+  position:absolute;
+  top: 30px;
+  color: #262626;
+  letter-spacing: 4px;
+  transition: .5s;
+}
+
+.strong ul li a {
+  text-decoration: none;
+  display:absolute;
+  display:block;
+  width:210px;
+  height:80px;
+  background: #fff;
+  text-align:left;
+  padding-left: 20px;
+  transform: rotate(-30deg) skew(25deg) translate(0,0);
+  transition:.5s;
+  box-shadow: -20px 20px 10px rgba(0,0,0,.5);
+}
+.strong ul li a:before {
+  content: '';
+  position: absolute;
+  top:10px;
+  left:-20px;
+  height:100%;
+  width:20px;
+  background: #b1b1b1;
+  transform: .5s;
+  transform: rotate(0deg) skewY(-45deg);
+}
+.strong ul li a:after {
+  content: '';
+  position: absolute;
+  bottom:-20px;
+  left:-10px;
+  height:20px;
+  width:100%;
+  background: #b1b1b1;
+  transform: .5s;
+  transform: rotate(0deg) skewX(-45deg);
+}
+
+.strong ul li a:hover {
+  transform: rotate(-30deg) skew(25deg) translate(20px,-15px);
+  box-shadow: -50px 50px 50px rgba(0,0,0,.5);
+}
+
+.strong ul li:hover .icons {
+  color:#fff;
+}
+
+.strong ul li:hover span {
+  color:#fff;
+}
+
+.strong ul li:hover:nth-child(1) a{
+  background: #3b5998;
+}
+.strong ul li:hover:nth-child(1) a:before{
+  background: #365492;
+}
+.strong ul li:hover:nth-child(1) a:after{
+  background: #4a69ad;
+}
+
+.strong ul li:hover:nth-child(2) a{
+  background: #00aced;
+}
+.strong ul li:hover:nth-child(2) a:before{
+  background: #097aa5;
+}
+.strong ul li:hover:nth-child(2) a:after{
+  background: #53b9e0;
+}
+
+.strong ul li:hover:nth-child(3) a{
+  background: #dd4b39;
+}
+.strong ul li:hover:nth-child(3) a:before{
+  background: #b33a2b;
+}
+.strong ul li:hover:nth-child(3) a:after{
+  background: #e66a5a;
+}
+
+.strong ul li:hover:nth-child(4) a{
+  background: #e4405f;
+}
+.strong ul li:hover:nth-child(4) a:before{
+  background: #d81c3f;
+}
+.strong ul li:hover:nth-child(4) a:after{
+  background: #e46880;
+}
+@media(max-width:991px){
+  .strong ul li a {
+    text-decoration: none;
+    display:absolute;
+    display:flex;
+    width:210px;
+    height:80px;
+    background: #fff;
+    text-align:left;
+    padding-left: 20px;
+    transform: rotate(-30deg) skew(25deg) translate(0,0);
+    transition:.5s;
+    box-shadow: -20px 20px 10px rgba(0,0,0,.5);
   }
 }
