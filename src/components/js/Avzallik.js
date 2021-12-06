@@ -2,8 +2,8 @@ import React, { Component } from 'react'
 import '../../App.css'
 import { MdOutlineScore, MdWeb } from 'react-icons/md'
 import { FaBookReader } from 'react-icons/fa'
-import { GrMoney } from 'react-icons/gr'
 import { GiFamilyHouse, GiReceiveMoney, GiTeamIdea } from 'react-icons/gi'
+import Macbook from './Macbook'
 export default class Avzallik extends Component {
     render() {
         return (<div>
@@ -46,6 +46,8 @@ export default class Avzallik extends Component {
       <span>Mustahkam tizim</span>
     </a>
   </li>
+  <li>
+  <Macbook/></li>
 </ul>            </div></div>
         )
     }
