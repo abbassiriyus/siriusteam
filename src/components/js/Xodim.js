@@ -4,6 +4,7 @@ export default class Xodim extends Component {
     render() {
         return (
             <div>
+               
                <div className={s.body}>
   <input type="radio" name="position" checked />
   <input type="radio" name="position" />

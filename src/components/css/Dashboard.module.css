@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.menu{
+    font-size:18px;
+}
+
+.header{
+   background-image:url(../imgs/rasm.gif);
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+   height: 100vh;
+   background-position:center;
+  
+}
+.header h1{
+    margin-top: 150px;
+    font-family:'Cambria', 'Cochin', Georgia, Times, 'Times New Roman', serif;
+  font-size:60px;
+  font-weight: 600;
+  letter-spacing:5px;
+  background-color: blanchedalmond;
+  box-shadow:0 0  5px blanchedalmond;
+      padding-left: 10px;
+
+}
+.header h1 span{
+    color: brown;
+}
+.header p{
+    padding: 10px;
+  color:black;
+background-color: blanchedalmond;
+box-shadow:0 0  5px blanchedalmond;
+    font-size: 21px;
+    font-family:cursive;
+    font-weight:900;
+    letter-spacing:2px;
+    line-height:35px;
+}
+.header p::first-letter{    /*yozuvni bosh harfini ozgartirish mn*/
+	text-transform: uppercase;
+	font-size:35px;
+	color: rgb(247, 76, 9);
+}
+.header p span{
+    font-size: 24px;
+    color: rgb(54, 42, 165);
+    text-transform: capitalize;
+}
+
