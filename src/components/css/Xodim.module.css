@@ -98,4 +98,17 @@
   input:nth-of-type(5):checked ~ main#carousel {
     --position: 5;
   }
+
+.item .image{
+  margin: 10px;
+}
+
+.item .image img{
+    width: 100%;
+  }
+  .item .title{
+    margin: auto;
+    text-align: center;
+  }
+
   

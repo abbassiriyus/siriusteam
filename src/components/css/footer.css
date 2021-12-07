@@ -2,15 +2,21 @@
     width: 100%;
     z-index: 11111;
   }
+  .foot{
+    position: relative;
+    top: -30px;
+  }
   
   .foot footer p,
   footer strong,
   footer b,
   footer {
     color: white;
+   
   }
   
   .foot .footer-top {
+  
     background: #303030;
     background-size: cover;
     background-position: center;

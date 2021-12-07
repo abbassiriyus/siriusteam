@@ -46,8 +46,7 @@ export default class Avzallik extends Component {
       <span>Mustahkam tizim</span>
     </a>
   </li>
-  <li>
-  <Macbook/></li>
+ 
 </ul>            </div></div>
         )
     }
