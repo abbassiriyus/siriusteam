@@ -3,6 +3,7 @@ import React, { Component } from 'react'
 import s from '../css/Xodim.module.css'
 import w from '../img/footerlogo.jpg'
 import a from '../img/abbas.jpg'
+import n from '../img/nigora.jpg'
 import Macbook from '../js/Macbook'
 export default class Xodim extends Component {
     componentDidMount(){
@@ -44,7 +45,7 @@ export default class Xodim extends Component {
         <p>Asoschisi,Frontend Development</p>
         <Button variant="primary">Obuna</Button>
         </div></div>
-    <div className={s.item}>   <div className={s.image}><img src={w}/></div>
+    <div className={s.item}>   <div className={s.image}><img style={{height:'280px'}} src={n}/></div>
         <div className={s.title}><h3>Nigora</h3>
         <p>Vaqtincha hech qanday lavozimga aloqasi yoq :)</p>
         <Button variant="primary">Obuna</Button>
