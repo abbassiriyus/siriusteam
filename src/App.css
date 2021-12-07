@@ -230,6 +230,7 @@ background: linear-gradient(90deg, rgba(9,8,116,0.6922969871542367) 8%, rgba(20,
 .yol .container .card{
   position: relative;
   cursor: pointer;
+  background: #0c1f36;
 }
 
 .yol .container .card .face{
