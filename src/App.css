@@ -224,6 +224,7 @@ position: relative;
   position: absolute;
   top: 20px;
   left: 10%;
+  color: #ffffff;
 }
 
 .yol .container{
@@ -317,15 +318,20 @@ position: relative;
   background: #333;
   color: #fff;
 }
-@media(max-width:756px){
-  .yol{
-    margin: 0;
-    padding: 0;
-  position: relative;
-    background:#0c1f36;
+@media(max-width:991px){
+  .yol .loyiha{
+    z-index: 213445;
+    position: absolute;
+    top: 20px;
+    color: white;
+    left: 10%;
+    font-size: 20px;
+  }
+  .yol .container{
+    width: 1000px;
+    position: relative;
     display: block;
-    justify-content: center;
-    align-items: center;
-    font-family: consolas;
+margin: 20%;
+text-align: center;
   }
 }

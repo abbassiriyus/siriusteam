@@ -16,10 +16,10 @@ export default class Xodim extends Component {
             <div>
                <Macbook/>
                <div className={s.body}>
+  
+  <input type="radio" name="position" />
   <input type="radio" name="position"  />
-  <input type="radio" name="position" />
-  <input type="radio" name="position" checked />
-  <input type="radio" name="position" />
+  <input type="radio" name="position" checked/>
   <input type="radio" name="position" />
   <input type="radio" name="position" />
   <main id={s.carousel}>

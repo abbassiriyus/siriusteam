@@ -6,6 +6,7 @@ import style from '../css/Dashboard.module.css'
 import Avzallik from './Avzallik'
 import Footer from './Footer'
 import Xodim from './Xodim'
+import Yol from './Yol'
 
 export default class Dashboard extends Component {
     render() {
@@ -40,7 +41,7 @@ export default class Dashboard extends Component {
     </Container>
 </div>
 
-
+<Yol/>
 <div id="bizningJamoa">
     <Xodim />
 </div>
