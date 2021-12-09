@@ -11,12 +11,11 @@ body{
 }
 
 .header{
-   background-image:url(../imgs/rasm.gif);
+   background-image: url(../imgs/12345.gif);
    background-repeat: no-repeat;
    background-attachment: fixed;
-   background-size: cover;
    height: 100vh;
-   background-position:center;
+   background-position:right;
   
 }
 .header h1{
@@ -25,8 +24,7 @@ body{
   font-size:60px;
   font-weight: 600;
   letter-spacing:5px;
-  background-color: blanchedalmond;
-  box-shadow:0 0  5px blanchedalmond;
+
       padding-left: 10px;
 
 }
@@ -36,8 +34,7 @@ body{
 .header p{
     padding: 10px;
   color:black;
-background-color: blanchedalmond;
-box-shadow:0 0  5px blanchedalmond;
+
     font-size: 21px;
     font-family:cursive;
     font-weight:900;
