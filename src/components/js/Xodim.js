@@ -47,7 +47,7 @@ export default class Xodim extends Component {
         </div></div>
     <div className={s.item}>   <div className={s.image}><img style={{height:'280px'}} src={n}/></div>
         <div className={s.title}><h3>Nigora</h3>
-        <p>Vaqtincha hech qanday lavozimga aloqasi yoq :)</p>
+        <p>WEB junior(Frontend Development) dasturchi va SiriusTeam Administrator</p>
         <Button variant="primary">Obuna</Button>
         </div></div>
     </main>
