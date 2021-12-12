@@ -41,7 +41,11 @@ export default class Dashboard extends Component {
     </Container>
 </div>
 
-<Yol/>
+
+
+<div id="loyiha">
+    <Yol/>
+</div>
 <div id="bizningJamoa">
     <Xodim />
 </div>
