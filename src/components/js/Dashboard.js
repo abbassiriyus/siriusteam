@@ -15,15 +15,15 @@ export default class Dashboard extends Component {
 
 <Navbar fixed="top" collapseOnSelect expand="lg" bg="dark" variant="dark">
   <Container>
-  <Navbar.Brand href="#home">Sirius</Navbar.Brand>
-  <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+  <Navbar.Brand className={style.menu} href="#home" >Sirius</Navbar.Brand>
+  <Navbar.Toggle className={style.navbarnav} aria-controls="#responsive-navbar-nav"/>
   <Navbar.Collapse id="responsive-navbar-nav">
-    <Nav className="ms-auto menu">
-      <Nav.Link className={style.menu} href="#boshSahifa">Bosh sahifa</Nav.Link>
-      <Nav.Link className={style.menu} href="#dars">Darslarimiz</Nav.Link>
-      <Nav.Link className={style.menu} href="#loyiha">Loyihalar</Nav.Link>
-      <Nav.Link className={style.menu} href="#bizningJamoa">Bizning jamoa</Nav.Link> 
-      <Nav.Link className={style.menu} href="#bizBilanBog'lanish"> bog'lanish</Nav.Link>
+    <Nav  className="ms-auto " >
+      <Nav.Link className={style.navlink}  href="#boshSahifa">Bosh sahifa</Nav.Link>
+      <Nav.Link className={style.navlink}  href="#kurslar">Kurslar</Nav.Link>
+      <Nav.Link className={style.navlink}  href="#loyiha">Loyihalar</Nav.Link>
+      <Nav.Link className={style.navlink}  href="#bizningJamoa">Bizning jamoa</Nav.Link> 
+      <Nav.Link className={style.navlink}  href="#bizBilanBog'lanish"> bog'lanish</Nav.Link>
     </Nav>
   </Navbar.Collapse>
   </Container>
