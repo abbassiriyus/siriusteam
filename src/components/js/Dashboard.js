@@ -5,13 +5,16 @@ import { Col, Container, Nav, Navbar, Row } from 'react-bootstrap'
 import style from '../css/Dashboard.module.css'
 import Avzallik from './Avzallik'
 import Footer from './Footer'
+import Kurslar from './Kurslar'
 import Xodim from './Xodim'
 import Yol from './Yol'
+import '../css/dashboard.css'
 
 export default class Dashboard extends Component {
     render() {
         return (
             <div>
+      
 
 <Navbar fixed="top" collapseOnSelect expand="lg" bg="dark" variant="dark">
   <Container>
@@ -28,23 +31,44 @@ export default class Dashboard extends Component {
   </Navbar.Collapse>
   </Container>
 </Navbar>
-<div className={style.header} id="boshSahifa">
-    <Container>
-        <Row>
-            <Col sm={12} md={12} lg={6}>
-            <h1>Sirius <span>Team.</span></h1>
-            <p>Buyuk odamlar g'oyalar haqida.Oddiy insonlar voqealikni gapiradilar,Orzu qiling...
-                O'z ustingda tinmay ishlang toki maqsadga erishmaguncha.Siz biz bilan bo'ling  Biz sizga yordam beramiz.Biz siz bilanmiz.Hayotda hech qachon qoqilmay maqsad sari ildam yuring.<span>oz qoldi !</span></p>
-            </Col>
-           
-        </Row>
-    </Container>
+<div id="boshSahifa">
+    
+<div class="ternary-system">
+  <div class="sun primary"></div>
+  <div class="sun secondary"></div>
+  <div class="sun ternary"></div>
+</div>
+<div class="sand">
+<div class="pendulums">
+  <div class="pendulum">
+    <div class="bar"></div>
+    <div class="motion">
+      <div class="string"></div>
+      <div class="weight"></div>
+    </div>
+  </div>
+  <div class="pendulum shadow">
+    <div class="bar"></div>
+    <div class="motion">
+      <div class="string"></div>
+      <div class="weight"></div>
+    </div>
+  </div>
+</div></div>
+<div class="pyramid"></div>
+<div class="text">
+  <h1 class="title">The <strong>Three-Body</strong><em>Problem</em></h1>
+  <p>By Liu Cixin</p>
+</div>
 </div>
 
 
 
 <div id="loyiha">
     <Yol/>
+</div>
+<div id="kurslar">
+    <Kurslar/>
 </div>
 <div id="bizningJamoa">
     <Xodim />

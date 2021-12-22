@@ -8,9 +8,7 @@
     position: relative;
     bottom: 52px;
 }
-#card h3{
-    
-}
+
 #card div{
     display: flex;
     padding: 30px;
@@ -23,4 +21,43 @@ div button{
     height: 12px;
     border-radius: 50%;
     margin: 5px;
+}
+.kursTitle{
+    margin: 100px 0 50px;
+    text-align: center;
+    color: blue;
+    text-shadow: 2px 2px 2px #000;
+    font-size:45px;
+    font-weight: 500;
+}
+.kursCard{
+    margin-bottom: 30px;
+    border-radius: 10px;
+    background-color: rgba(14, 14, 20, 0.9);
+    color: white;
+    box-shadow: 10px 12px 13px rgba(27, 18, 49, 0.9);
+}
+.kursImg{
+    height: 220px;
+}
+.kursNomi, .kursNarxi, .kursMuddati{
+    font-size: 20px;
+    font-weight: 600;
+}
+.kursNomi b small{
+font-size: 15px;
+font-weight: 500;
+margin-left: 5px;
+}
+.kursMuddati b, .kursNarxi b, .kursNomi small{
+  color: rgba(158, 170, 170, 0.9);
+    font-weight: 500px;
+    font-size: 18px;
+    padding-bottom: 12px;
+    margin-left: 12px;
+}
+@media(max-width:1200px) {
+    .kursCard{
+        max-width: 600px;
+    }
 }
